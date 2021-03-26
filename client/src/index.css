@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-btn {
+  background: rgb(46, 214, 30);
+  border: none;
+  border-radius: 12px;
+  padding: 15px 25px;
+  cursor: pointer;
+  transition: all .25s ease-in;
+}
+
+.login-btn:hover {
+  transform: translateY(-5px)
+}
+
+.login-btn a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  height: 100vh;
+}
